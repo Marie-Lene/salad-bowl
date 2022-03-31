@@ -80,7 +80,7 @@ function BowlText({ createBowl, currBowl, isFixedBowl }) {
     return (
         <section className="homepage-hero-text">
             <div>
-                <h1 id="homepage-hero-text-title">Mix Your Own Salad Bowl</h1>
+                <h1 id="homepage-hero-text-title">It's your Bowl</h1>
                 <div className="p">
                     Create your own bowl out of <BowlCounter /> variations!
                 </div>
