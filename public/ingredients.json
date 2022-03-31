@@ -1,0 +1,424 @@
+{
+  "base": [
+    {
+      "id": "1",
+      "tag": "quinoa",
+      "name_de": "Quinoa",
+      "name_en": "Quinoa",
+      "preparation": "Add quinoa and water. Bring water to a boil, cover and reduce the heat. Simmer for 15 minutes. Remove the pot from the heat and let it sit while you prepare the other ingredients. At the end place it at the bottom of your bowl.",
+      "serving": "80",
+      "unit": "g",
+      "img": "/images/1-0_base.png"
+    },
+    {
+      "id": "2",
+      "tag": "lentils-red",
+      "name_de": "Rote Linsen",
+      "name_en": "Red Lentils",
+      "preparation": "Boil red lentils for 15 minutes. Leave them to cool down, drain them and place them at the bottom of your bowl.",
+      "serving": "80",
+      "unit": "g",
+      "img": "/images/1-1_base.png"
+    },
+    {
+      "id": "3",
+      "tag": "lentils-beluga",
+      "name_de": "Belugalinsen",
+      "name_en": "Beluga Lentils",
+      "preparation": "Boil beluga lentils for 15 minutes. Leave them to cool down, drain them and place them at the bottom of your bowl.",
+      "serving": "80",
+      "unit": "g",
+      "img": "/images/1-2_base.png"
+    },
+    {
+      "id": "4",
+      "tag": "beans-white",
+      "name_de": "Weiße Bohnen",
+      "name_en": "White Beans",
+      "preparation": "Soak white beans (ideally overnight but even 1 hour helps speed up the cook time). Boil beans with fresh water and some salt, drain them and place them at the bottom of your bowl.",
+      "serving": "60",
+      "unit": "g",
+      "img": "/images/1-3_base.png"
+    },
+    {
+      "id": "5",
+      "tag": "beans-kidney",
+      "name_de": "Kidney Bohnen",
+      "name_en": "Kidney Beans",
+      "preparation": "Soak kidney beans (ideally overnight but even 1 hour helps speed up the cook time). Boil beans with fresh water and some salt, drain them and place them at the bottom of your bowl.",
+      "serving": "60",
+      "unit": "g",
+      "img": "/images/1-4_base.png"
+    },
+    {
+      "id": "6",
+      "tag": "chickpeas",
+      "name_de": "Kichererbsen",
+      "name_en": "Chickpeas",
+      "preparation": "Soak chickpeas (ideally overnight but even 1 hour helps speed up the cook time). Boil chickpeas with fresh water and some salt, drain them and place them at the bottom of your bowl.",
+      "serving": "60",
+      "unit": "g",
+      "img": "/images/1-5_base.png"
+    },
+    {
+      "id": "7",
+      "tag": "couscous",
+      "name_de": "Couscous",
+      "name_en": "Couscous",
+      "preparation": "Boil couscous for 15 minutes, then leave to cool down, drain and place it at bottom of bowl.",
+      "serving": "80",
+      "unit": "g",
+      "img": "/images/1-2_base.png"
+    },
+    {
+      "id": "8",
+      "tag": "bulgur",
+      "name_de": "Bulgur",
+      "name_en": "Bulgur",
+      "preparation": "Boil bulgur for 15 minutes, then leave to cool down, drain and place it at the bottom of your bowl.",
+      "serving": "80",
+      "unit": "g",
+      "img": "/images/1-3_base.png"
+    },
+    {
+      "id": "9",
+      "tag": "noodles",
+      "name_de": "Glasnudeln",
+      "name_en": "Noodles",
+      "preparation": "Cook in boiling water for 3 to 6 minutes, drain them and place them at the bottom of your bowl.",
+      "serving": "60",
+      "unit": "g",
+      "img": "/images/1-4_base.png"
+    }
+  ],
+  "greens": [
+    {
+      "id": "1",
+      "tag": "lamb",
+      "name_de": "Feldsalat",
+      "name_en": "Lamb`s Lettuce",
+      "preparation": "Wash lettuce thoroughly and place it on your plate.",
+      "serving": "60",
+      "unit": "g",
+      "img": "/images/2-0_greens.png"
+    },
+    {
+      "id": "2",
+      "tag": "rocket",
+      "name_de": "Rucola",
+      "name_en": "Rocket Salad",
+      "preparation": "Wash rocket salad and place it on your plate.",
+      "serving": "60",
+      "unit": "g",
+      "img": "/images/2-1_greens.png"
+    },
+    {
+      "id": "3",
+      "tag": "romaine",
+      "name_de": "Romanasalat",
+      "name_en": "Romane Lettuce",
+      "preparation": "Wash romaine lettuce and place it on your plate.",
+      "serving": "60",
+      "unit": "g",
+      "img": "/images/2-2_greens.png"
+    },
+    {
+      "id": "4",
+      "tag": "lettuce",
+      "name_de": "Kopfsalat",
+      "name_en": "Lettuce",
+      "preparation": "Wash lettuce and place it on your plate.",
+      "serving": "60",
+      "unit": "g",
+      "img": "/images/2-3_greens.png"
+    },
+    {
+      "id": "5",
+      "tag": "spinach",
+      "name_de": "Blattspinat",
+      "name_en": "Leaf Spinach",
+      "preparation": "Wash spinach and place it on your plate.",
+      "serving": "60",
+      "unit": "g",
+      "img": "/images/2-4_greens.png"
+    },
+    {
+      "id": "6",
+      "tag": "oak",
+      "name_de": "Eichblattsalat",
+      "name_en": "Oak leaf lettuce",
+      "preparation": "Wash lettuce and place it on your plate.",
+      "serving": "60",
+      "unit": "g",
+      "img": "/images/2-4_greens.png"
+    }
+  ],
+  "veggies": [
+    {
+      "id": "1",
+      "tag": "carrot-radish-corn",
+      "name_de": "Karotte, grüne Bohnen & Mais",
+      "name_en": "Carrot, Green Breans & Sweet Corn",
+      "preparation": "Wash and clean carrot and green beans and cut them in small slices or medium sized pieces. Drain corn and sprinkle it over the other veggies. Roasting green beans slightly in a frying pan will add etra flavour.",
+      "serving": "150",
+      "unit": "g",
+      "img": "/images/3-0_veggies.png"
+    },
+    {
+      "id": "2",
+      "tag": "cabbage-pepper-turnip",
+      "name_de": "Paprika, Rotkraut & Radieschen",
+      "name_en": "Red Cabbage, Bell Pepper, Radishes",
+      "preparation": "Wash and clean veggies. Cut red (or white) cabbage into very thin stripes and chop pepper and radishes in medium sized pieces.",
+      "serving": "150",
+      "unit": "g",
+      "img": "/images/3-1_veggies.png"
+    },
+    {
+      "id": "3",
+      "tag": "cucumber-tomato-olive",
+      "name_de": "Gurke, Tomaten & Oliven",
+      "name_en": "Cucumber, Tomatoes & Olives",
+      "preparation": "Wash and clean tomatoes and cucumber and cut them in medium sized pieces.",
+      "serving": "150",
+      "unit": "g",
+      "img": "/images/3-2_veggies.png"
+    },
+    {
+      "id": "4",
+      "tag": "brokkoli-beet-apple",
+      "name_de": "Brokkoli, rote Beete & Apfelstücke",
+      "name_en": "Brokkoli, Beets & Apple",
+      "preparation": "Wash and clean veggies and cut them in medium sized pieces. Beets tend to have a slightly bitter taste, so make sure to cut them in extra small pieces so they can absorb more of your dressing.",
+      "serving": "150",
+      "unit": "g",
+      "img": "/images/3-3_veggies.png"
+    },
+    {
+      "id": "5",
+      "tag": "zucchini-carrot-pepper",
+      "name_de": "Zucchini, Karotte & Paprika",
+      "name_en": "Zucchini, Carrot & Bell Pepper",
+      "preparation": "Wash and clean veggies and cut them in medium sized pieces. Roasting zuccini slightly in a frying pan will add etra flavour.",
+      "serving": "150",
+      "unit": "g",
+      "img": "/images/3-4_veggies.png"
+    }
+  ],
+  "extra": [
+    {
+      "id": "1",
+      "tag": "feta",
+      "name_de": "Halloumi, Feta oder Hirtenkäse",
+      "name_en": "Feta Or Halloumi Cheese",
+      "preparation": "Sprinkle small chunks of cheese over your bowl. For extra flavour, roast feta or halloumi cheese and place them over your salad.",
+      "serving": "60",
+      "unit": "g",
+      "img": "/images/4-0_extra.png"
+    },
+    {
+      "id": "2",
+      "tag": "pumpkin",
+      "name_de": "Gebratene Kürbisstreifen",
+      "name_en": "Roasted Pumpkin Strips",
+      "preparation": "Chop pumpkin into thin stripes and fry it in a pan. Add your favourite spices or herbs to add extra flavour. Once the stripes are roasted, place them over your salad.",
+      "serving": "60",
+      "unit": "g",
+      "img": "/images/4-1_extra.png"
+    },
+    {
+      "id": "3",
+      "tag": "avocado",
+      "name_de": "Avocado",
+      "name_en": "Avocado",
+      "preparation": "Cut avocado in strips and place them over your salad.",
+      "serving": "0.5",
+      "unit": "",
+      "img": "/images/4-2_extra.png"
+    },
+    {
+      "id": "4",
+      "tag": "mushrooms",
+      "name_de": "Gebratene Pilze",
+      "name_en": "Roasted Mushrooms",
+      "preparation": "Roast mushrooms slightly with some oil. Adding herbs to the frying pan will add extra flavour. Once they're roasted, place them over your salad.",
+      "serving": "60",
+      "unit": "g",
+      "img": "/images/4-3_extra.png"
+    },
+    {
+      "id": "5",
+      "tag": "eggplant",
+      "name_de": "Gebratene Auberginen",
+      "name_en": "Roasted Eggplant",
+      "preparation": "Slice eggplant and sprinkle evenly with salt. Set aside for 15-30 minutes to drain and draw out the bitter juices. Rinse slices before frying them in a pan until they are very soft. Finally place them over your salad bowl.",
+      "serving": "60",
+      "unit": "g",
+      "img": "/images/4-4_extra.png"
+    },
+    {
+      "id": "6",
+      "tag": "sweetpotato",
+      "name_de": "Gebratene Süßkartoffel",
+      "name_en": "Roasted Sweet Potatoes",
+      "preparation": "Cut sweet potatoes into thin stripes and fry it in a pan. Add your favourite spices or herbs to add extra flavour. Once the stripes are roasted, place them over your salad.",
+      "serving": "60",
+      "unit": "g",
+      "img": "/images/4-1_extra.png"
+    }
+  ],
+  "dressing": [
+    {
+      "id": "1",
+      "tag": "lemon",
+      "name_de": "Zitrone-Olivenöl",
+      "name_en": "Lemon - Olive Oil",
+      "preparation": "Mix ingedients and pour them over your bowl.",
+      "serving": "50",
+      "unit": "ml",
+      "img": "/images/6-0_dressing.png"
+    },
+    {
+      "id": "2",
+      "tag": "yogurt",
+      "name_de": "Joghurt-Kräuter",
+      "name_en": "Yogurt - Fresh Herbs",
+      "preparation": "Mix ingedients and pour them over your bowl.",
+      "serving": "50",
+      "unit": "ml",
+      "img": "/images/6-1_dressing.png"
+    },
+    {
+      "id": "3",
+      "tag": "sesame",
+      "name_de": "Sesam-Zitrone",
+      "name_en": "Sesame - Lemon",
+      "preparation": "Mix ingedients and pour them over your bowl.",
+      "serving": "50",
+      "unit": "ml",
+      "img": "/images/6-2_dressing.png"
+    },
+    {
+      "id": "4",
+      "tag": "pesto",
+      "name_de": "Pesto-Balsamico",
+      "name_en": "Pesto - Balsamic Vinegar",
+      "preparation": "Mix ingedients and pour them over your bowl.",
+      "serving": "50",
+      "unit": "ml",
+      "img": "/images/6-3_dressing.png"
+    },
+    {
+      "id": "5",
+      "tag": "tsatsiki",
+      "name_de": "Joghurt-Tzatziki",
+      "name_en": "Yogurt - Tsatsiki",
+      "preparation": "Mix ingedients and pour them over your bowl.",
+      "serving": "50",
+      "unit": "ml",
+      "img": "/images/6-4_dressing.png"
+    },
+    {
+      "id": "6",
+      "tag": "orange",
+      "name_de": "Orange-Apfelessig",
+      "name_en": "Orange - Apple Vinegar",
+      "preparation": "Mix orange juice with apple vinegar and 1 tsp of mustard, add salt and pepper and pour it over your bowl.",
+      "serving": "50",
+      "unit": "ml",
+      "img": "/images/6-5_dressing.png"
+    }
+  ],
+  "topping": [
+    {
+      "id": "1",
+      "tag": "walnut-grape",
+      "name_de": "Geröstete Walnüsse & Trauben",
+      "name_en": "Roasted Walnuts & Grapes",
+      "preparation": "And finally: roast walnuts while you wash the grapes and spread them on top of your bowl to add extra chrunch and sweetness.",
+      "serving": "1",
+      "unit": "handful",
+      "img": "/images/5-0_topping.png"
+    },
+    {
+      "id": "2",
+      "tag": "sunflower",
+      "name_de": "Geröstete Sonnenblumenkerne",
+      "name_en": "Roasted Sunflower Seeds",
+      "preparation": "Last but not least: Roast the sunflower seeds without oil and spread them over your bowl right before you serve it.",
+      "serving": "1",
+      "unit": "handful",
+      "img": "/images/5-1_topping.png"
+    },
+    {
+      "id": "3",
+      "tag": "pumpkin",
+      "name_de": "Geröstete Kürbiskerne",
+      "name_en": "Roasted Pumpkin Seeds",
+      "preparation": "As the final step: Roast the pumpkin seeds slightly in a pan and spread them over your bowl right before you serve it.",
+      "serving": "1",
+      "unit": "handful",
+      "img": "/images/5-2_topping.png"
+    },
+    {
+      "id": "4",
+      "tag": "cashew",
+      "name_de": "Cashewnüsse",
+      "name_en": "Cashews",
+      "preparation": "Add the final touch and spread a handful of cashews over your bowl.",
+      "serving": "1",
+      "unit": "handful",
+      "img": "/images/5-3_topping.png"
+    },
+    {
+      "id": "5",
+      "tag": "croutons",
+      "name_de": "Geröstete Croutons",
+      "name_en": "Roasted Croutons",
+      "preparation": "Roast croutons slightly and spread them over your bowl right before you serve it.",
+      "serving": "1",
+      "unit": "handful",
+      "img": "/images/5-4_topping.png"
+    },
+    {
+      "id": "6",
+      "tag": "hazel",
+      "name_de": "Geröstete Haselnüsse",
+      "name_en": "Roasted Hazelnuts",
+      "preparation": "Adn finally: Roast hazelnuts slightly in a pan and spread them over your bowl just before you serve it.",
+      "serving": "1",
+      "unit": "handful",
+      "img": "/images/5-5_topping.png"
+    },
+    {
+      "id": "7",
+      "tag": "almond",
+      "name_de": "Geröstete Mandelscheiben",
+      "name_en": "Roasted Almonds",
+      "preparation": "As the last step: Roast chopped or whole almonds slightly in a pan and spread them over your bowl just before serving it.",
+      "serving": "1",
+      "unit": "handful",
+      "img": "/images/5-2_topping.png"
+    },
+    {
+      "id": "8",
+      "tag": "pomegranate",
+      "name_de": "Granatapfelkerne",
+      "name_en": "Pomegranate Seeds",
+      "preparation": "Add some color and extra flavour to your bowl: Peel pomegranate and sprinkle as many seeds over your bowl as you like.",
+      "serving": "1",
+      "unit": "handful",
+      "img": "/images/5-3_topping.png"
+    },
+    {
+      "id": "9",
+      "tag": "peanuts",
+      "name_de": "Erdnüsse",
+      "name_en": "Peanuts",
+      "preparation": "Sprinkle peanuts on top of your bowl.",
+      "serving": "1",
+      "unit": "handful",
+      "img": "/images/5-4_topping.png"
+    }
+  ]
+}
