@@ -1,4 +1,4 @@
-import ingredientList from "../public/ingredients.json";
+import ingredientList from "./ingredients.json";
 
 const DEFAULT_BOWL = {
   base: 0,
