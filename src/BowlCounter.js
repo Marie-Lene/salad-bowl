@@ -1,4 +1,5 @@
 import CountUp from "react-countup";
+import { useEffect } from "react/cjs/react.production.min";
 import { TOTAL_VARIATIONS } from "./library.js";
 
 export default function BowlCounter() {

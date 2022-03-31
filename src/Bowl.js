@@ -11,7 +11,7 @@ export default function Bowl({ createBowl, currBowl }) {
     const [isActive, setIsActive] = useState(null);
     const [isFixedBowl, setIsFixedBowl] = useState({});
     function onToggleFixedKey(id) {
-        console.log("toggle fixed key", id, currBowl[id]);
+        //console.log("toggle fixed key", id, currBowl[id]);
         if (isFixedBowl[id] === currBowl[id]) {
             setIsFixedBowl({
                 ...isFixedBowl,
@@ -26,7 +26,7 @@ export default function Bowl({ createBowl, currBowl }) {
     }
     function renderActiveLabel(label) {
         setIsActive(label);
-        console.log("isActive label passed to parent", label);
+        // console.log("isActive label passed to parent", label);
     }
 
     useEffect(() => {
@@ -57,7 +57,7 @@ export default function Bowl({ createBowl, currBowl }) {
                 isActive={isActive}
                 ingredients={bowlWithIngredients}
                 isFixedBowl={isFixedBowl}
-                toggleFixedKey={() => onToggleFixedKey(this.event.target.id)}
+                toggleFixedKey={(id) => onToggleFixedKey(id)}
                 passActiveLabel={renderActiveLabel}
             />
         </div>
@@ -116,11 +116,9 @@ function BowlBody({
         <section
             className="homepage-hero-image"
             onMouseEnter={() => {
-                console.log("show labels on");
                 setTimeout(() => setLabelVisible(true), 500);
             }}
             onMouseLeave={() => {
-                console.log("show labels off");
                 setTimeout(() => setLabelVisible(false), 500);
             }}
         >
@@ -148,47 +146,41 @@ function LabelInterface({
 }) {
     function hoverStateOn(id) {
         passActiveLabel(id);
-        console.log("mouseover area, add hover state to", id);
+        // console.log("mouseover area, add hover state to", id);
     }
     function hoverStateOff(id) {
         passActiveLabel(null);
-        console.log("mouseout area, remove hover state from ", id);
+        //  console.log("mouseout area, remove hover state from ", id);
     }
     return (
-        <div className="label-interface">
+        <div
+            className={"label-interface " + (labelVisible ? " fade-in" : null)}
+        >
             {labelVisible && (
-                <>
-                    <div className="label-group">
-                        {KEYS.map((key) => (
-                            <div
-                                key={key}
-                                id={key}
-                                className={
-                                    "ingredient-label " +
-                                    key +
-                                    (isActive === key && " hover-text")
-                                }
-                                onMouseOver={() =>
-                                    hoverStateOn(this.event.target.id)
-                                }
-                                onMouseOut={() =>
-                                    hoverStateOff(this.event.target.id)
-                                }
-                                onClick={() =>
-                                    toggleFixedKey(this.event.target.id)
-                                }
-                            >
-                                {ingredients[key].name_en}
-                                {"   "}
-                                {isFixedBowl[key] || isFixedBowl[key] === 0 ? (
-                                    <FaLock />
-                                ) : (
-                                    <FaUnlock />
-                                )}
-                            </div>
-                        ))}
-                    </div>
-                </>
+                <div className="label-group">
+                    {KEYS.map((key) => (
+                        <div
+                            key={key}
+                            id={key}
+                            className={"ingredient-label " + key}
+                            onMouseOver={(event) => {
+                                hoverStateOn(event.target.id);
+                            }}
+                            onMouseOut={(event) => {
+                                hoverStateOff(event.target.id);
+                            }}
+                            onClick={(event) => toggleFixedKey(event.target.id)}
+                        >
+                            {ingredients[key].name_en}
+                            {"   "}
+                            {isFixedBowl[key] || isFixedBowl[key] === 0 ? (
+                                <FaLock />
+                            ) : (
+                                <FaUnlock />
+                            )}
+                        </div>
+                    ))}
+                </div>
             )}
         </div>
     );

@@ -30,11 +30,11 @@ export default function App() {
     // function closeModal() {
     //   setIsVisibleModal(false);
     // }
-    useEffect(() => {
-        setTimeout(() => {
-            setIsVisibleModal(true);
-        }, 1000);
-    }, []);
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //         setIsVisibleModal(true);
+    //     }, 1000);
+    // }, []);
     return (
         // <div className={loaded ? "app loaded" : "app"}>
         <div className="App">
