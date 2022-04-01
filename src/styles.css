@@ -102,12 +102,12 @@ body {
 .button-primary {
     margin: 1rem auto;
     color: white;
-    background-color: rgb(55, 114, 15);
-    border: 3px solid rgb(55, 114, 15);
+    background-color: rgba(70, 145, 20);
+    border: 3px solid rgba(70, 145, 20);
 }
 
 .button-primary:hover {
-    color: rgb(55, 114, 15);
+    color: rgba(70, 145, 20);
     background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -171,9 +171,9 @@ body {
 }
 
 .ingredient-label {
-    color: rgb(55, 114, 15);
+    color: rgba(70, 145, 20);
     background-color: rgba(255, 255, 255, 0.8);
-    border: 2px solid rgb(55, 114, 15);
+    border: 2px solid rgba(70, 145, 20);
     border-radius: 0.25rem;
 
     text-transform: uppercase;
@@ -193,7 +193,7 @@ body {
 
 .ingredient-label:hover {
     color: rgb(255, 255, 255);
-    background-color: rgba(55, 114, 15, 0.8);
+    background-color: rgba(70, 145, 20, 0.8);
     transition-duration: 0.4s;
 }
 
