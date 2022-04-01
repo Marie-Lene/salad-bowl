@@ -1,6 +1,16 @@
 {
     "base": [
         {
+            "id": "4",
+            "tag": "beans-white",
+            "name_de": "Weiße Bohnen",
+            "name_en": "White Beans",
+            "preparation": "Soak white beans (ideally overnight but even 1 hour helps speed up the cook time). Boil beans with fresh water and some salt, drain them and place them at the bottom of your bowl.",
+            "serving": "60",
+            "unit": "g",
+            "img": "/images/base-4.png"
+        },
+        {
             "id": "1",
             "tag": "quinoa",
             "name_de": "Quinoa",
@@ -29,16 +39,6 @@
             "serving": "80",
             "unit": "g",
             "img": "/images/base-3.png"
-        },
-        {
-            "id": "4",
-            "tag": "beans-white",
-            "name_de": "Weiße Bohnen",
-            "name_en": "White Beans",
-            "preparation": "Soak white beans (ideally overnight but even 1 hour helps speed up the cook time). Boil beans with fresh water and some salt, drain them and place them at the bottom of your bowl.",
-            "serving": "60",
-            "unit": "g",
-            "img": "/images/base-4.png"
         },
         {
             "id": "5",
@@ -93,16 +93,6 @@
     ],
     "greens": [
         {
-            "id": "1",
-            "tag": "lamb",
-            "name_de": "Feldsalat",
-            "name_en": "Lamb`s Lettuce",
-            "preparation": "Wash lettuce thoroughly and place it on your plate.",
-            "serving": "60",
-            "unit": "g",
-            "img": "/images/greens-1.png"
-        },
-        {
             "id": "2",
             "tag": "rocket",
             "name_de": "Rucola",
@@ -111,6 +101,16 @@
             "serving": "60",
             "unit": "g",
             "img": "/images/greens-2.png"
+        },
+        {
+            "id": "1",
+            "tag": "lamb",
+            "name_de": "Feldsalat",
+            "name_en": "Lamb`s Lettuce",
+            "preparation": "Wash lamb's lettuce thoroughly and place it on your plate.",
+            "serving": "60",
+            "unit": "g",
+            "img": "/images/greens-1.png"
         },
         {
             "id": "3",
@@ -155,6 +155,16 @@
     ],
     "veggies": [
         {
+            "id": "3",
+            "tag": "cucumber-tomato-olive",
+            "name_de": "Gurke, Tomaten & Oliven",
+            "name_en": "Cucumber, Tomatoes & Olives",
+            "preparation": "Wash and clean tomatoes and cucumber and cut them in medium sized pieces. Add green or black olives.",
+            "serving": "150",
+            "unit": "g",
+            "img": "/images/veggies-3.png"
+        },
+        {
             "id": "1",
             "tag": "carrot-radish-corn",
             "name_de": "Karotte, grüne Bohnen & Mais",
@@ -173,16 +183,6 @@
             "serving": "150",
             "unit": "g",
             "img": "/images/veggies-2.png"
-        },
-        {
-            "id": "3",
-            "tag": "cucumber-tomato-olive",
-            "name_de": "Gurke, Tomaten & Oliven",
-            "name_en": "Cucumber, Tomatoes & Olives",
-            "preparation": "Wash and clean tomatoes and cucumber and cut them in medium sized pieces.",
-            "serving": "150",
-            "unit": "g",
-            "img": "/images/veggies-3.png"
         },
         {
             "id": "4",
@@ -207,16 +207,6 @@
     ],
     "extra": [
         {
-            "id": "1",
-            "tag": "feta",
-            "name_de": "Halloumi, Feta oder Hirtenkäse",
-            "name_en": "Feta Or Halloumi Cheese",
-            "preparation": "Sprinkle small chunks of cheese over your bowl. For extra flavour, roast feta or halloumi cheese and place them over your salad.",
-            "serving": "60",
-            "unit": "g",
-            "img": "/images/extra-1.png"
-        },
-        {
             "id": "2",
             "tag": "pumpkin",
             "name_de": "Gebratene Kürbisstreifen",
@@ -225,6 +215,16 @@
             "serving": "60",
             "unit": "g",
             "img": "/images/extra-2.png"
+        },
+        {
+            "id": "1",
+            "tag": "feta",
+            "name_de": "Halloumi, Feta oder Hirtenkäse",
+            "name_en": "Feta Or Halloumi Cheese",
+            "preparation": "Sprinkle small chunks of cheese over your bowl. For extra flavour, roast feta or halloumi cheese and place them over your salad.",
+            "serving": "60",
+            "unit": "g",
+            "img": "/images/extra-1.png"
         },
         {
             "id": "3",
@@ -273,7 +273,7 @@
             "tag": "lemon",
             "name_de": "Zitrone-Olivenöl",
             "name_en": "Lemon - Olive Oil",
-            "preparation": "Mix ingedients and pour them over your bowl.",
+            "preparation": "Squeeze fresh lemon juice and mix with olive oil. Add salt and pepper and pour the dressing over your bowl.",
             "serving": "50",
             "unit": "ml",
             "img": "/images/dressing-1.png"
@@ -283,7 +283,7 @@
             "tag": "yogurt",
             "name_de": "Joghurt-Kräuter",
             "name_en": "Yogurt - Fresh Herbs",
-            "preparation": "Mix ingedients and pour them over your bowl.",
+            "preparation": "Mix yoghurt with vinegar, cut parsley, chives or other fresh herbs in small pieces. Mix all ingredients, add salt and pepper and pour the dressing over your bowl.",
             "serving": "50",
             "unit": "ml",
             "img": "/images/dressing-2.png"
@@ -293,7 +293,7 @@
             "tag": "sesame",
             "name_de": "Sesam-Zitrone",
             "name_en": "Sesame - Lemon",
-            "preparation": "Mix ingedients and pour them over your bowl.",
+            "preparation": "Mix tahin with lemon juice. Add some olive oil, salt and pepper and pour the dressing over your bowl.",
             "serving": "50",
             "unit": "ml",
             "img": "/images/dressing-3.png"
@@ -303,7 +303,7 @@
             "tag": "pesto",
             "name_de": "Pesto-Balsamico",
             "name_en": "Pesto - Balsamic Vinegar",
-            "preparation": "Mix ingedients and pour them over your bowl.",
+            "preparation": "Mix a tablespoon of pesto with balsamic vinegar. Add olive oil, salt and pepper and the dressing over your bowl.",
             "serving": "50",
             "unit": "ml",
             "img": "/images/dressing-4.png"
@@ -313,7 +313,7 @@
             "tag": "tsatsiki",
             "name_de": "Joghurt-Tzatziki",
             "name_en": "Yogurt - Tsatsiki",
-            "preparation": "Mix ingedients and pour them over your bowl.",
+            "preparation": "Chop small pieced of cucumber and garlic and mix them with yogurt and salt. Add olive oil, mix all ingredients and pour them over your bowl.",
             "serving": "50",
             "unit": "ml",
             "img": "/images/dressing-5.png"
@@ -331,11 +331,21 @@
     ],
     "topping": [
         {
+            "id": "8",
+            "tag": "pomegranate",
+            "name_de": "Granatapfelkerne",
+            "name_en": "Pomegranate Seeds",
+            "preparation": "Add some color and extra flavour to your bowl: Peel pomegranate and sprinkle as many seeds over your bowl as you like.",
+            "serving": "1",
+            "unit": "handful",
+            "img": "/images/topping-8.png"
+        },
+        {
             "id": "1",
             "tag": "walnut-grape",
             "name_de": "Geröstete Walnüsse & Trauben",
             "name_en": "Roasted Walnuts & Grapes",
-            "preparation": "And finally: roast walnuts while you wash the grapes and spread them on top of your bowl to add extra chrunch and sweetness.",
+            "preparation": "And finally: Roast walnuts while you wash the grapes and spread them on top of your bowl to add extra chrunch and sweetness.",
             "serving": "1",
             "unit": "handful",
             "img": "/images/topping-1.png"
@@ -385,7 +395,7 @@
             "tag": "hazel",
             "name_de": "Geröstete Haselnüsse",
             "name_en": "Roasted Hazelnuts",
-            "preparation": "Adn finally: Roast hazelnuts slightly in a pan and spread them over your bowl just before you serve it.",
+            "preparation": "And finally: Roast hazelnuts slightly in a pan and spread them over your bowl just before you serve it.",
             "serving": "1",
             "unit": "handful",
             "img": "/images/topping-6.png"
@@ -399,16 +409,6 @@
             "serving": "1",
             "unit": "handful",
             "img": "/images/topping-7.png"
-        },
-        {
-            "id": "8",
-            "tag": "pomegranate",
-            "name_de": "Granatapfelkerne",
-            "name_en": "Pomegranate Seeds",
-            "preparation": "Add some color and extra flavour to your bowl: Peel pomegranate and sprinkle as many seeds over your bowl as you like.",
-            "serving": "1",
-            "unit": "handful",
-            "img": "/images/topping-8.png"
         }
     ]
 }

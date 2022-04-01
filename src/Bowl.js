@@ -80,9 +80,10 @@ function BowlText({ createBowl, currBowl, isFixedBowl }) {
     return (
         <section className="homepage-hero-text">
             <div>
-                <h1 id="homepage-hero-text-title">It's your Bowl</h1>
+                <h1 id="homepage-hero-text-title">It's your Bowl!</h1>
                 <div className="p">
-                    Create your own bowl out of <BowlCounter /> variations!
+                    Create your own salad bowl out of <BowlCounter />{" "}
+                    variations!
                 </div>
                 <div id="homepage-hero-text-btns">
                     <button
@@ -118,9 +119,9 @@ function BowlBody({
             onMouseEnter={() => {
                 setTimeout(() => setLabelVisible(true), 500);
             }}
-            onMouseLeave={() => {
-                setTimeout(() => setLabelVisible(false), 500);
-            }}
+            // onMouseLeave={() => {
+            //     setTimeout(() => setLabelVisible(false), 500);
+            // }}
         >
             <LabelInterface
                 labelVisible={labelVisible}
