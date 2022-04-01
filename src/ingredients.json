@@ -98,7 +98,7 @@
             "name_de": "Rucola",
             "name_en": "Rocket Salad",
             "preparation": "Wash rocket salad and place it on your plate.",
-            "serving": "60",
+            "serving": "80",
             "unit": "g",
             "img": "/images/greens-2.png"
         },
@@ -108,7 +108,7 @@
             "name_de": "Feldsalat",
             "name_en": "Lamb`s Lettuce",
             "preparation": "Wash lamb's lettuce thoroughly and place it on your plate.",
-            "serving": "60",
+            "serving": "80",
             "unit": "g",
             "img": "/images/greens-1.png"
         },
@@ -118,7 +118,7 @@
             "name_de": "Romanasalat",
             "name_en": "Romane Lettuce",
             "preparation": "Wash romaine lettuce and place it on your plate.",
-            "serving": "60",
+            "serving": "80",
             "unit": "g",
             "img": "/images/greens-3.png"
         },
@@ -128,7 +128,7 @@
             "name_de": "Kopfsalat",
             "name_en": "Lettuce",
             "preparation": "Wash lettuce and place it on your plate.",
-            "serving": "60",
+            "serving": "80",
             "unit": "g",
             "img": "/images/greens-4.png"
         },
@@ -138,7 +138,7 @@
             "name_de": "Blattspinat",
             "name_en": "Leaf Spinach",
             "preparation": "Wash spinach and place it on your plate.",
-            "serving": "60",
+            "serving": "80",
             "unit": "g",
             "img": "/images/greens-5.png"
         },
@@ -148,7 +148,7 @@
             "name_de": "Eichblattsalat",
             "name_en": "Oak leaf lettuce",
             "preparation": "Wash lettuce and place it on your plate.",
-            "serving": "60",
+            "serving": "80",
             "unit": "g",
             "img": "/images/greens-6.png"
         }
