@@ -496,12 +496,17 @@ rgb(82, 182, 154) */
     }
     .recipe-main {
         width: 100%;
-        height: 100vw;
+        min-height: 60vh;
     }
     .recipe-aside {
         width: 100%;
         height: 100vw;
-        /* min-height: 50vh; */
+    }
+    .recipe-aside .ingredient-list li {
+        line-height: 0.8em;
+        height: 2.4rem;
+        padding: 0.5rem;
+        margin: 0.25rem 0;
     }
 }
 
@@ -512,5 +517,19 @@ rgb(82, 182, 154) */
     #recipe {
         width: 100vw;
         /* height: 100vh; */
+    }
+    .recipe-main {
+        width: 100%;
+        min-height: 60vh;
+    }
+    .recipe-aside {
+        width: 100%;
+        height: 100vw;
+    }
+    .recipe-aside .ingredient-list li {
+        line-height: 0.8em;
+        height: 2.4rem;
+        padding: 0.5rem;
+        margin: 0.25rem 0;
     }
 }
