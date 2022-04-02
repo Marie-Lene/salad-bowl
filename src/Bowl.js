@@ -9,6 +9,7 @@ import { FaLock, FaUnlock } from "react-icons/fa";
 
 export default function Bowl({ createBowl, currBowl }) {
     const [isActive, setIsActive] = useState(null);
+    const [labelVisible, setLabelVisible] = useState(false);
     const [isFixedBowl, setIsFixedBowl] = useState({});
     function onToggleFixedKey(id) {
         //console.log("toggle fixed key", id, currBowl[id]);
@@ -34,9 +35,7 @@ export default function Bowl({ createBowl, currBowl }) {
             "mounted bowl, currBowl",
             currBowl,
             "fixedBowl",
-            isFixedBowl,
-            "isActive",
-            isActive
+            isFixedBowl
         );
     }, [currBowl, isFixedBowl, isActive]);
 
@@ -52,6 +51,7 @@ export default function Bowl({ createBowl, currBowl }) {
                 currBowl={currBowl}
                 createBowl={() => createBowl(isFixedBowl)}
                 isFixedBowl={isFixedBowl}
+                setLabelVisible={() => setLabelVisible(true)}
             />
             <BowlBody
                 isActive={isActive}
@@ -59,15 +59,16 @@ export default function Bowl({ createBowl, currBowl }) {
                 isFixedBowl={isFixedBowl}
                 toggleFixedKey={(id) => onToggleFixedKey(id)}
                 passActiveLabel={renderActiveLabel}
+                labelVisible={labelVisible}
             />
         </div>
     );
 }
 
-function BowlText({ createBowl, currBowl, isFixedBowl }) {
+function BowlText({ createBowl, currBowl, isFixedBowl, setLabelVisible }) {
     function onSpaceKey(event) {
         if (event.code === "Space") {
-            console.log("space", isFixedBowl);
+            setLabelVisible();
             createBowl(isFixedBowl);
         }
     }
@@ -80,14 +81,17 @@ function BowlText({ createBowl, currBowl, isFixedBowl }) {
     return (
         <section className="homepage-hero-text">
             <div>
-                <h1 id="homepage-hero-text-title">It's your Bowl!</h1>
+                <h1 id="homepage-hero-text-title">Mix your Bowl!</h1>
                 <div className="p">
                     Create your own salad bowl out of <BowlCounter />{" "}
                     variations!
                 </div>
                 <div id="homepage-hero-text-btns">
                     <button
-                        onClick={() => createBowl()}
+                        onClick={() => {
+                            setLabelVisible();
+                            createBowl();
+                        }}
                         className="button button-primary"
                     >
                         Press space to mix your bowl
@@ -110,19 +114,11 @@ function BowlBody({
     isFixedBowl,
     passActiveLabel,
     isActive,
+    labelVisible,
 }) {
-    const [labelVisible, setLabelVisible] = useState(false);
     useEffect(() => {}, [isFixedBowl]);
     return (
-        <section
-            className="homepage-hero-image"
-            onMouseEnter={() => {
-                setTimeout(() => setLabelVisible(true), 500);
-            }}
-            // onMouseLeave={() => {
-            //     setTimeout(() => setLabelVisible(false), 500);
-            // }}
-        >
+        <section className="homepage-hero-image">
             <LabelInterface
                 labelVisible={labelVisible}
                 passActiveLabel={passActiveLabel}
@@ -139,7 +135,6 @@ function BowlBody({
 
 function LabelInterface({
     passActiveLabel,
-    isActive,
     ingredients,
     isFixedBowl,
     toggleFixedKey,
@@ -154,9 +149,7 @@ function LabelInterface({
         //  console.log("mouseout area, remove hover state from ", id);
     }
     return (
-        <div
-            className={"label-interface " + (labelVisible ? " fade-in" : null)}
-        >
+        <div className={"label-interface " + (labelVisible && " fade-in")}>
             {labelVisible && (
                 <div className="label-group">
                     {KEYS.map((key) => (
@@ -172,13 +165,12 @@ function LabelInterface({
                             }}
                             onClick={(event) => toggleFixedKey(event.target.id)}
                         >
-                            {ingredients[key].name_en}
-                            {"   "}
                             {isFixedBowl[key] || isFixedBowl[key] === 0 ? (
                                 <FaLock />
                             ) : (
                                 <FaUnlock />
                             )}
+                            {"   "} {ingredients[key].name_en}
                         </div>
                     ))}
                 </div>
